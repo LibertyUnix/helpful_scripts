@@ -15,4 +15,4 @@ sudo ip link set wlan1 down
 sudo iw dev wlan1 set type monitor
 sudo ip link set wlan1 up
 sudo iw wlan0 set txpower fixed 3000
-echo "All Done - Use Airmon-ng CARDNAME to begin!"
+echo "All Done - Use Airmon-ng wlanX to begin!"
