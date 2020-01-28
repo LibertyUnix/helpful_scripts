@@ -1,7 +1,7 @@
 import subprocess 
 
 for ip in range(2,254): 
-	address = "10.11.1." + str(ip)
+	address = "192.168.1." + str(ip)
 	res = subprocess.call(['ping', '-c', '3', address]) 
 	if results == 0: 
 		print( "ping to", address, "OK") 
